@@ -1,0 +1,76 @@
+# Python虚拟环境
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+pythonenv*/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 数据存储目录
+chroma_db/
+chat_history/
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志文件
+*.log
+*.log.*
+
+# 本地配置文件
+config_local.py
+*.local.py
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 测试文件
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# 项目特定文件
+md5.txt
+*.md5
+*.bak
+*.backup
+
+# 打包文件
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook缓存
+.ipynb_checkpoints/
+
+# Streamlit缓存
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
